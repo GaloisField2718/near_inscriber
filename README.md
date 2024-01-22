@@ -1,4 +1,4 @@
-# Near ![NEAR Protocol](https://raw.githubusercontent.com/ErikThiart/cryptocurrency-icons/master/16/near-protocol.png "NEAR Protocol (NEAR)") inscriber automation
+# Near ![NEAR Protocol](https://raw.githubusercontent.com/ErikThiart/cryptocurrency-icons/master/16/near-protocol.png "NEAR Protocol (NEAR)")  inscriber automation
 
 
 

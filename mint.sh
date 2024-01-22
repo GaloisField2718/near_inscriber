@@ -20,6 +20,6 @@ if [ "$#" -ne 4 ]; then
 	echo 'Usage: '$0' CONTRACT_NAME FILE DEPOSIT SIGNER'
 	echo 'Take care to not inverse elements!'
 else
-	near-cli-rs contract call-function as-transaction $CONTRACT_NAME inscribe file-args $FILE prepaid-gas '100.0 Tgas' attached-deposit "$DEPOSIT NEAR" sign-as $ADDRESS network-config mainnet sign-with-legacy-keychain send
+	./near-cli-rs contract call-function as-transaction $CONTRACT_NAME inscribe file-args $FILE prepaid-gas '100.0 Tgas' attached-deposit "$DEPOSIT NEAR" sign-as $ADDRESS network-config mainnet sign-with-legacy-keychain send
 
 fi

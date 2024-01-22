@@ -7,7 +7,7 @@
 export CONTRACT_NAME='inscription.near'
 export FILE='inscriptions/mint_fuckneat.json'
 export DEPOSIT='0'
-export ADDRESS='progr.near'
+export ADDRESS='YOUR_ADDRES'
 
 
 if [ -z "$1" ]; then

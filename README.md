@@ -35,7 +35,7 @@ For any more `sh` files run the same command before to execute them.
 
 ## Usage
 
-Usage is very easy and can be customised as wished. This configuration runs `near-cli-rs` on the mainnet, with `'100 Tgas'` and `sign-with-legacy-keychain` flag. The signer flag provided avoid to enter password for each transaction. It's less secure but required if we launch 100 mints with `mint_fuckneat.sh` for example (you don't want to enter 100 times your password, right ?).
+Usage is very easy and can be customised as wished. This configuration runs `near-cli-rs` on the mainnet, with `'100 Tgas'` and `sign-with-legacy-keychain` flag. The signer flag provided avoid to enter password for each transaction. It's less secure but required if we launch 100 mints with `mint_fuckneat.sh` for example (you don't want to enter 100 times your password, right?).
 
 To configure your wallet with `near-cli-rs` as `legacy-keychain` I provided a small documentation into `quick_tuto_near-cli-rs` folder.
 
@@ -53,7 +53,7 @@ You should open the file and modify line 4 `YOUR_ADDRESS` with your `near_id` (i
 
 ## What to do?
 
-The most interesting script is `mint_unifat_example.sh` cause it implements a quite funny logic in the mint. The script could be improve by for example checking before to process if the user has enough NEAR to process the call. Check that the call worked is also a good feature to add. 
+The most interesting script is `mint_unifat_example.sh` cause it implements a quite funny logic in the mint. The script could be improved by, for example, checking before to process if the user has enough NEAR to process the call. Check that the call worked is also a good feature to add. 
 
 The `mint.sh` script is really a ready-to-go script for inscriptions in general on [Near Protocol](near.org). Feel free to try different json files and different contracts. *Take care to not be snipped by some teams 🫠.*
 
@@ -61,5 +61,5 @@ The `mint_fuckneat_example.sh` is a good basic example to make several mints in 
 
 ## Author(s)
 
-- GaloisField2718 : [X : @Blockcryptology](https://twitter.com/Blockcryptology) [💌 mail](galoisfield2718@gmail.com) 
+- GaloisField2718 : [X : @Blockcryptology](https://twitter.com/Blockcryptology) [💌 mail](mailto:galoisfield2718@gmail.com?subject=near_inscriber) 
 - Any others who want to participate 🙃
